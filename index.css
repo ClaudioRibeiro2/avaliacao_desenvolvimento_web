@@ -1,0 +1,115 @@
+*{
+    font-family: Abel;
+    color: #171214;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+h1{
+    margin: 0px;
+    font-size: 3rem;
+}
+h2{
+    margin: 0px;
+    font-size: 2.5rem;
+}
+h3{
+    margin: 0px;
+    font-size: 1.5rem;
+}
+p{
+    margin: 0px;
+}
+/* CABEÇALHO */
+.cabecalho{
+    display: flex;
+    align-items: center;
+    padding: 20px 0px;
+}
+.logo{
+    height: 35px;
+    margin-left: 200px;
+}
+.div-cabecalho{
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 300px;
+}
+.header-ul{
+    display: flex;
+    gap: 20px;
+}
+.header-li{
+    display: inline;
+}
+.seta-baixo{
+    height: 10px;
+    margin-left: 5px;
+}
+/* PRINCIPAL */
+/* 1 seção */
+.recrutamento{
+    background-color: #CAFAD9;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 20px 0px;
+}
+.recrutamento-div{
+    width: 400px;
+}
+.recrutamento-btn{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.btn1{
+    background-color: #7622D7;
+    border: 1px #7622D7 solid;
+    border-radius: 50px;
+    padding: 15px 20px;
+    color: #F7F8F7;
+} 
+.btn2{
+    background-color: #CAFAD9;
+    border: 2px #171214 solid;
+    border-radius: 10px;
+    border-radius: 50px;
+    padding: 15px 20px;
+}
+/* 2 seção */
+.contrate{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #CAFAD9;
+    gap: 15px;
+    padding: 80px 0px;
+}
+p{
+    width: 400px;
+    text-align: center;
+}
+/* rodapé */
+.rodape{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+    margin: 50px 0px;
+}
+.footer-ul{
+    display: flex;
+    flex-direction: column;
+    margin: 15px 30px;
+    align-items: center;
+}
+.footer-li{
+    display: flex;
+}
+.footer-img{
+    height: 15px;
+}
